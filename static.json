@@ -1,0 +1,6 @@
+{
+  "root": "workspace-b/build/",
+  "routes": {
+    "/**": "index.html"
+  }
+}
