@@ -1,0 +1,11 @@
+{
+  "name": "heroku-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["workspace-a", "workspace-b"],
+  "scripts": {
+    "heroku-postbuild": "./scripts/heroku.build"
+  }
+}
