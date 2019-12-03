@@ -10,6 +10,7 @@
     "yarn": "1.12.3"
   },
   "scripts": {
+    "heroku-postbuild": "scripts/heroku.build",
     "deploy-api": "git push https://git.heroku.com/api-jk.git master",
     "deploy-web": "git push https://git.heroku.com/web-client-jk.git master"
   }
