@@ -1,1 +1,1 @@
-web: yarn workspace workspace-a start
+web: node workspace-a/index.js
