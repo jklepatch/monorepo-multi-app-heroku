@@ -14,7 +14,7 @@ fi
 
   cd $PROJECT_ROOT
 
-  if [ "$BUILD_ENV" = "web-client" ]; then
+  if [ "$BUILD_ENV" = "web-client-jk" ]; then
     yarn workspace workspace-b build
   fi
 )
